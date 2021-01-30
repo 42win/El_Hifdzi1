@@ -31,7 +31,20 @@ Instalation
 
 Tampilan Aplikasi
 =======
-![Screenshot_6](https://user-images.githubusercontent.com/55066281/106347074-b3b5a680-6289-
+Tampilan Pilih Role
+
+![Screenshot_1](https://user-images.githubusercontent.com/55066281/106347076-b57f6a00-6289-11eb-9386-a4821f1ec681.jpg)
+
+Tampilan Ustadz
+
+![Screenshot_6](https://user-images.githubusercontent.com/55066281/106347074-b3b5a680-6289-11eb-92fa-db47eec17046.jpg)
+![Screenshot_5](https://user-images.githubusercontent.com/55066281/106347082-b9ab8780-6289-11eb-9d83-a833317095a6.jpg)
+
+Tampilan Santri
+
+![Screenshot_3](https://user-images.githubusercontent.com/55066281/106347078-b7e1c400-6289-11eb-97e9-100aa6e214a7.jpg)
+![Screenshot_2](https://user-images.githubusercontent.com/55066281/106347077-b6b09700-6289-11eb-98b4-0c68edc630b6.jpg)
+![Screenshot_4](https://user-images.githubusercontent.com/55066281/106347080-b87a5a80-6289-11eb-9c5e-dcc0a6c23478.jpg)
 
 Credits
 =======
