@@ -22,6 +22,7 @@ Requirements
               Android Fragment 2.1.0
               Android CardView 1.0.0
 - list : Android Recyler View 1.0.0
+- koneksi internet 
 
 Instalation
 =======
