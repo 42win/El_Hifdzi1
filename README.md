@@ -10,6 +10,7 @@ Dengan sensor pengoreksi ayat otomatis siswa dapat melakukan Muroja'ah mandiri d
 Info
 =======
 Aplikasi masih dalam tahap pengembangan prototipe
+
 proses backed pada aplikasi menggunakan framework codeigniter
 
 Requirements
@@ -30,6 +31,7 @@ Instalation
 
 Tampilan Aplikasi
 =======
+![Screenshot_6](https://user-images.githubusercontent.com/55066281/106347074-b3b5a680-6289-
 
 Credits
 =======
