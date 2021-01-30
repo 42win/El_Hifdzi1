@@ -7,6 +7,29 @@ Pandemi Covid-19 kini tidak lagi menjadi faktor penghambat bagi sekolah atau lem
 
 Dengan sensor pengoreksi ayat otomatis siswa dapat melakukan Muroja'ah mandiri di rumah dengan tetap mendapatkam hasil evaluasi hafalan dari aplikasi. Selain itu, ustaz dan sekolah bisa memantau langsung aktivitas hafalan siswa-siswa nya. Tidak hanya itu, ustaz bahkan bisa memberi penilaian hafalan santri melalui aplikasi ini.
 
+Info
+=======
+Aplikasi masih dalam tahap pengembangan prototipe
+proses backed pada aplikasi menggunakan framework codeigniter
+
+Requirements
+=======
+- Android Studio 4.0.1 or Above
+- Networking : Fast Android Networking 1.0.2
+- Interface : Android Material Design 1.0.0
+              Android Navigation 2.1.0
+              Android Fragment 2.1.0
+              Android CardView 1.0.0
+- list : Android Recyler View 1.0.0
+
+Instalation
+=======
+- clone atau dwonload project zip
+- extract file
+- jalankan project menggunakan IDE Android Studio
+
+Tampilan Aplikasi
+=======
 
 Credits
 =======
