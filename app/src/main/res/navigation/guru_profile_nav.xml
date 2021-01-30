@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guru_profile_nav"
+    app:startDestination="@id/guruProfileFragment">
+
+    <fragment
+        android:id="@+id/guruProfileFragment"
+        android:name="com.az.elhifdzi.ui.guru.GuruProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_guru_profile" />
+</navigation>

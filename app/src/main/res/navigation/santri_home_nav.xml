@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/santri_home_nav"
+    app:startDestination="@id/santriHomeFragment">
+
+    <fragment
+        android:id="@+id/santriHomeFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_santri_home" >
+        <action
+            android:id="@+id/action_santriHomeFragment_to_santriLearningVideoFragment"
+            app:destination="@id/santriLearningVideoFragment" />
+        <action
+            android:id="@+id/action_santriHomeFragment_to_santriTaqdimulFragment"
+            app:destination="@id/santriTaqdimulFragment" />
+        <action
+            android:id="@+id/action_santriHomeFragment_to_santriTahfizulSurahFragment"
+            app:destination="@id/santriTahfizulSurahFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/santriLearningVideoFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriLearningVideoFragment"
+        android:label="Learning Video"
+        tools:layout="@layout/fragment_santri_learning_video" />
+    <fragment
+        android:id="@+id/santriTahfizulFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriTahfizulMulaiFragment"
+        android:label="Tahfizul Mulai"
+        tools:layout="@layout/fragment_santri_tahfizul_mulai" >
+        <action
+            android:id="@+id/action_santriTahfizulFragment_to_santriTahfizulBaseFragment"
+            app:destination="@id/santriTahfizulBaseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/santriTaqdimulFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriTaqdimulSurahFragment"
+        android:label="Pilih Surah"
+        tools:layout="@layout/fragment_santri_taqdimul_surah" >
+        <action
+            android:id="@+id/action_santriTaqdimulFragment_to_santriTaqdimulMulaiFragment2"
+            app:destination="@id/santriTaqdimulMulaiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/santriTahfizulResultFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriTahfizulResultFragment"
+        android:label="Hasil"
+        tools:layout="@layout/fragment_santri_tahfizul_result" />
+    <fragment
+        android:id="@+id/santriTahfizulBaseFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriTahfizulBaseFragment"
+        android:label="Tahfizul Fardhiy"
+        tools:layout="@layout/fragment_santri_tahfizul_base" >
+        <action
+            android:id="@+id/action_santriTahfizulBaseFragment_to_santriTahfizulResultFragment"
+            app:destination="@id/santriTahfizulResultFragment"
+            app:popUpTo="@id/santriHomeFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/santriTahfizulSurahFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriTahfizulSurahFragment"
+        android:label="Pilih Surah"
+        tools:layout="@layout/fragment_santri_tahfizul_surah" >
+        <action
+            android:id="@+id/action_santriTahfizulSurahFragment_to_santriTahfizulFragment"
+            app:destination="@id/santriTahfizulFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/santriTaqdimulMulaiFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriTaqdimulMulaiFragment"
+        android:label="fragment_santri_taqdimul_mulai"
+        tools:layout="@layout/fragment_santri_taqdimul_mulai" >
+        <action
+            android:id="@+id/action_santriTaqdimulMulaiFragment_to_santriTaqdimulAyatFragment"
+            app:destination="@id/santriTaqdimulAyatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/santriTaqdimulAyatFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriTaqdimulAyatFragment"
+        android:label="fragment_santri_taqdimul_ayat"
+        tools:layout="@layout/fragment_santri_taqdimul_ayat" >
+        <action
+            android:id="@+id/action_santriTaqdimulAyatFragment_to_santriTaqdimulHistoryFragment"
+            app:destination="@id/santriTaqdimulHistoryFragment"
+            app:popUpTo="@id/santriHomeFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/santriTaqdimulHistoryFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriTaqdimulHistoryFragment"
+        android:label="fragment_santri_taqdimul_history"
+        tools:layout="@layout/fragment_santri_taqdimul_history" />
+    <fragment
+        android:id="@+id/santriNotifFragment"
+        android:name="com.az.elhifdzi.ui.santri.SantriNotifFragment"
+        android:label="Pemberitahuan"
+        tools:layout="@layout/fragment_santri_notif" />
+
+</navigation>

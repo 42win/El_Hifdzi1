@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/santri_home_nav"
+        android:icon="@drawable/ic_home"
+        android:contentDescription="home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/santri_profile_nav"
+        android:icon="@drawable/ic_account"
+        android:contentDescription="profile"
+        android:title="@string/profile" />
+</menu>

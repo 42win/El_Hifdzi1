@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">El Hifdzi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="tab_text_1">Ayat 1</string>
+    <string name="tab_text_2">Ayat 2</string>
+    <string name="content_tab_text">Tekan tombol rekam untuk memulai merekam ayat ke</string>
+    <string name="tab_text_3">Ayat 3</string>
+
+    <string name="url">http://10.0.2.2/elhifdzi</string>
+</resources>
